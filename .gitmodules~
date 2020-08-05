@@ -1,4 +1,6 @@
 [submodule "libgit2-sys/libgit2"]
 	path = libgit2-sys/libgit2
 	url = https://github.com/lhchavez/libgit2
-	branch = raceless
+	branch = fix-mwindow-thread-unsafety
+[submodule ".\\libgit2-sys\\libgit2\\"]
+	url = https://github.com/andrewhickman/libgit2.git
